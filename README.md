@@ -28,8 +28,8 @@ This Hangman game is developed in C language using GTK3 for the graphical user i
 Before running the Hangman game, ensure you have the following prerequisites installed:
 
 - `gcc` (C Compiler)
-- `gtk+3.0 library` (for testing purpose)
-- `glib2.0 library` (for testing purpose)
+- `gtk+3.0 library`
+- `glib2.0 library`
 
 ```bash
 $ sudo apt-get update
@@ -62,5 +62,4 @@ $ make
 
 ```bash
 $ ./hangman
->>>>>>> fc61ac4 (initial)
 ```
