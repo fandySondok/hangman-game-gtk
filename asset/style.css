@@ -1,0 +1,170 @@
+@keyframes opening {
+  0% {
+    background-color: rgba(141, 19, 19, 1);
+  }
+  25% {
+    background-color: rgba(141, 19, 19, 0.5);
+  }
+  50% {
+    background-color: rgba(141, 19, 19, 0.75);
+  }
+  75% {
+    background-color: rgba(141, 19, 19, 0.25);
+  }
+  100% {
+    background-color: rgba(141, 19, 19, 0);
+  }
+}
+
+@keyframes opening {
+  0% {
+    background-color: rgba(141, 19, 19, 1);
+  }
+  25% {
+    background-color: rgba(141, 19, 19, 0.5);
+  }
+  50% {
+    background-color: rgba(141, 19, 19, 0.75);
+  }
+  75% {
+    background-color: rgba(141, 19, 19, 0.25);
+  }
+  100% {
+    background-color: rgba(141, 19, 19, 0);
+  }
+}
+@keyframes transation_mute_btn {
+  0% {
+    background-color: rgb(108, 211, 245);
+  }
+
+  100% {
+    background-color: rgb(245, 108, 108);
+  }
+}
+
+/* ------------- menu window ------------- */
+
+#menu_ui_window {
+  background-image: url('img/back_menu.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#menu_ui_window2 {
+  background-image: url('img/back_main.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#menu_ui_main_container {
+  animation: opening 3s;
+  background-color: rgba(36, 35, 35, 0);
+}
+
+#menu_ui_main_container_border {
+  background: transparent;
+  border-top: 5px solid #1b2749;
+  border-left: 5px solid #1b2749;
+  border-right: 5px solid #1b2749;
+}
+
+#menu_ui_play_btn {
+  background: transparent;
+  color: black;
+  border: 10px solid #f44336;
+  border-radius: 8px;
+  font-size: 25pt;
+}
+
+#menu_ui_play_btn:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+#menu_ui_mute_btn {
+  background: transparent;
+  border-radius: 100%;
+  border-color: transparent;
+  background-color: rgb(108, 211, 245);
+  box-shadow: 10px 10px 25px rgb(108, 211, 245);
+}
+
+#menu_ui_unmute_btn {
+  animation: transation_mute_btn 3s;
+  background: transparent;
+  border-radius: 100%;
+  border-color: transparent;
+  background-color: rgb(245, 108, 108);
+  box-shadow: 10px 10px 25px rgb(245, 108, 108);
+}
+
+/* ------------- main window ------------- */
+
+#main_ui_window {
+  background-image: url('img/back_main.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#main_ui_answer_box {
+  background: transparent;
+  border: 4px solid #05dcaf;
+  border-radius: 8px;
+}
+
+/* #main_ui_back_btn {
+  background-image: url('img/back_to_menu.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color: transparent;
+} */
+
+#main_ui_back_btn {
+  background-image: url('img/back_to_menu.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#main_ui_back_btn:hover {
+  border: none;
+  background-size: 80%;
+  box-shadow: unset;
+}
+
+#yes_icon {
+  background-image: url('img/play_again.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#no_icon {
+  background-image: url('img/not_play_again.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#popup_window_yes_btn {
+  background: transparent;
+  border: 10px solid #05dcaf;
+  border-radius: 8px;
+}
+
+#popup_window_no_btn {
+  background: transparent;
+  border: 10px solid #05dcaf;
+  border-radius: 8px;
+}
+
+#popup_ui_window {
+  background-image: url('img/pop_back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
